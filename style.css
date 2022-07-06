@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+p {
+    text-align: center;
+    padding-inline: 5%;
+    font-size: medium;
+}
+
+.font-page {
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+}
+
+#donation-img {
+    width: 100%;
+}
+
+#donate-now {
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+
+}
