@@ -7,29 +7,91 @@ p {
     text-align: center;
     padding-inline: 5%;
     font-size: medium;
+    line-height: 20px;
 }
 
-.font-page {
-    text-align: center;
-}
-
-h1 {
-    color: orange;
+.image-text {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    padding: 2opx;
     font-size: 60px;
     text-align: center;
+
 }
 
-#donation-img {
+.image-text img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.second-page {
     width: 100%;
-}
-
-#donate-now {
-    text-decoration: none;
-    background-color: orange;
-    padding: 20px 40px;
-    color: white;
-    border-radius: 5px;
+    padding: 1%;
+    text-align: center;
     font-weight: 700;
-    display: inline-block;
-
+    font-size: 20px;
 }
+
+.third-font {
+    text-align: center;
+    word-spacing: 30px;
+
+
+
+
+    .amount-font {
+        border: dotted gray;
+
+
+    }
+
+    .donate-plan {
+        text-decoration: none;
+
+    }
+
+    .fourth-part {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .fourth-plan {
+        position: absolute;
+        bottom: 10px;
+        width: 50%;
+        border: 3px solid #8AC007;
+    }
+
+    .fourth-font {}
+
+
+    #donation-img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #donate-now {
+        text-decoration: none;
+        background-color: aqua;
+        padding: 10px 20px;
+        color: #fff;
+        border-radius: 3px;
+        font-weight: 700;
+
+    }
+
+
+    .food {
+        background-image: url(images/food.png);
+    }
+
+    .cloth {
+        background-image: url(images/clothes.svg);
+    }
+
+    .medicine {
+        background-image: url(images/medicine.svg);
+    }
