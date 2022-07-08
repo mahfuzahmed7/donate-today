@@ -5,9 +5,22 @@ body {
 
 p {
     text-align: center;
-    padding-inline: 5%;
+    padding-inline: 2%;
     font-size: medium;
     line-height: 20px;
+    line-break: anywhere;
+    padding: 1%;
+    white-space: 50%;
+}
+
+.donate-now {
+
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
 }
 
 .image-text {
@@ -17,6 +30,7 @@ p {
     padding: 2opx;
     font-size: 60px;
     text-align: center;
+
 
 }
 
@@ -39,59 +53,61 @@ p {
     word-spacing: 30px;
 
 
+}
+
+.donate-plan {
+    text-decoration: none;
+
+}
+
+.fourth-page {
+    width: 100%;
+    padding: auto;
+    display: flex;
+}
+
+.food-font {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 20%;
+    margin-right: 3%;
+    border-radius: 10px;
+    border-left: 7px solid aquamarine;
+}
 
 
-    .amount-font {
-        border: dotted gray;
+.cloth-font {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 7px solid palegreen;
 
+}
 
-    }
+.medicine-font {
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 20%;
+    margin-left: 3%;
+    border-radius: 10px;
+    border-left: 7px solid salmon;
+}
 
-    .donate-plan {
-        text-decoration: none;
+#amount-font {
+    text-align: center;
+    border-bottom: 3px dotted gray;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
-    }
+#donation-img {
+    max-width: 100%;
+    height: auto;
 
-    .fourth-part {
-        display: flex;
-        margin-bottom: 100px;
-    }
+}
 
-    .fourth-plan {
-        position: absolute;
-        bottom: 10px;
-        width: 50%;
-        border: 3px solid #8AC007;
-    }
-
-    .fourth-font {}
-
-
-    #donation-img {
-        max-width: 100%;
-        height: auto;
-
-    }
-
-    #donate-now {
-        text-decoration: none;
-        background-color: aqua;
-        padding: 10px 20px;
-        color: #fff;
-        border-radius: 3px;
-        font-weight: 700;
-
-    }
-
-
-    .food {
-        background-image: url(images/food.png);
-    }
-
-    .cloth {
-        background-image: url(images/clothes.svg);
-    }
-
-    .medicine {
-        background-image: url(images/medicine.svg);
-    }
+#donate-now-again {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
+}
