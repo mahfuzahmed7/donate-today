@@ -90,6 +90,30 @@ p {
     border-left: 7px solid salmon;
 }
 
+.last-font {
+    text-align: center;
+}
+
+.box-tag {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+
+}
+
+
+h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: darkgray;
+    font-size: 24px;
+}
+
+
+
 #amount-font {
     text-align: center;
     border-bottom: 3px dotted gray;
