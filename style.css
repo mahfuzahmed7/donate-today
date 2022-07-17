@@ -2,7 +2,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-
 p {
     text-align: center;
     padding-inline: 2%;
@@ -30,14 +29,11 @@ p {
     padding: 2opx;
     font-size: 60px;
     text-align: center;
-
-
 }
 
 .image-text img {
     max-width: 100%;
     height: auto;
-
 }
 
 .second-page {
@@ -51,13 +47,10 @@ p {
 .third-font {
     text-align: center;
     word-spacing: 30px;
-
-
 }
 
 .donate-plan {
     text-decoration: none;
-
 }
 
 .fourth-page {
@@ -73,7 +66,6 @@ p {
     border-radius: 10px;
     border-left: 7px solid aquamarine;
 }
-
 
 .cloth-font {
     box-shadow: 10px 10px 40px gray;
@@ -101,9 +93,28 @@ p {
     position: absolute;
     left: 40%;
     right: 40%;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flexbox;
 
 }
 
+.bonus-part {
+    writing-mode: horizontal-tb;
+    text-align: center;
+    background-position: center;
+
+}
+
+.bonus-text {
+    font-size: 20px;
+}
+
+.bonus-img {
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
 
 h2 {
     margin: 0 0 10px;
@@ -111,8 +122,6 @@ h2 {
     color: darkgray;
     font-size: 24px;
 }
-
-
 
 #amount-font {
     text-align: center;
